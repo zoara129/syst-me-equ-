@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body {
+    background-image: url(7713.jpg);
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+html{
+    font-size: 75%;
+    overflow-x: hidden;
+}
+.container .content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+}
+.container .content .btn{
+    margin-top: 10px;
+}
+.container .content h1{
+    font-size:  45px;
+}
+.container .content p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.container .content .number .cat input{
+    margin-top: 1%;
+}
+.container .content .number .cat input{
+    padding: 3px;
+    color: rgb(15, 126, 15);
+    font-size: 20px;
+}
+.container .content .number .cat input[type=number]{
+    width: 7%;
+    border-radius: 5px;
+    border: 2px rgb(15, 126, 15) solid;
+    opacity: 0.7;
+}
+.container .content .number .cat input[placeholder=a]{
+    color: rgb(15, 126, 15);
+}
+.container .content .number{
+    font-size: 20px;
+}
+.container .content .btn button{
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    color: rgb(15, 126, 15);
+    opacity: 0.7;
+    cursor: pointer;
+    font-size: 20px;
+}
+#result{
+    margin-top: 1%;
+}
